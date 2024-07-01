@@ -22,6 +22,8 @@ const productSlice=createSlice({
 });
 export const productAction=productSlice.actions;
 
+
+
 const productCartSlice=createSlice({
     name:'productCart',
     initialState:{productCartList:[]},
@@ -43,6 +45,7 @@ const productCartSlice=createSlice({
         }
     }
 });
+
 export const productCartAction=productCartSlice.actions;
 
 const productStore=configureStore({
